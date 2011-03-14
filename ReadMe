@@ -1,0 +1,9 @@
+DLCA ( Diffusion LImited cluster Aggregation)
+
+	Simulation is done with various nano particle and polymer concentration.
+
+plot.py:
+	To plot the spacial arrangement of particles. Uses space.txt
+
+plotR.py:
+	Plots the Radius of Gyration against the number of particles. 
