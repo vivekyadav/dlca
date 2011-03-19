@@ -1,9 +1,9 @@
 DLCA ( Diffusion LImited cluster Aggregation)
 
-	Simulation is done with various nano particle and polymer concentration.
+	A space in initialised with random arrangement of particles(both nano and polymer). Simulation is then done with different nano particle and polymer particle concentration. One random particle is moved at a time in a randomly selected diredtion. Particle stick together to form clusters based on certain rules that simulate certain forces of attraction anf repulsion.
 
 plot.py:
-	To plot the spacial arrangement of particles. Uses space.txt
+	Creates a 2-D plot showing the spacial arrangement of particles. Uses "space.txt" as its input. 
 
 plotR.py:
-	Plots the Radius of Gyration against the number of particles. 
+	Plots the Radius of Gyration against the number of particles. This gives us an idea of the Mass Fractal Dimension. Uses "NvR.txt" as its input. 
